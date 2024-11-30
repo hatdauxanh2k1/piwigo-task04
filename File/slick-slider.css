@@ -1,0 +1,52 @@
+:root {
+  /* Màu nền: */
+  --background-color: none;
+  /* Màu tiêu đề */
+  --title-color: #000000;
+  /* Màu viền ảnh: */
+  --border-color: #ffffff;
+  /* Kích cỡ viền ảnh */
+  --border-size: 2px;
+  /* Màu nút trang */
+  --dots-color: rgb(19, 18, 18);
+  --dots-size: 20px;
+}
+
+.slick-slider-container {
+  background-color: var(--background-color);
+}
+
+.slick-slider-container h2 {
+  font-family: sans-serif;
+  color: var(--title-color);
+  margin: 0;
+}
+.slick-slider-carousel img {
+  width: 100%;
+  height: fit-content;
+}
+
+.slick-slider-carousel {
+  height: fit-content;
+}
+
+.slick-slide {
+  margin-left: 10px;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.slick-track .slick-slide {
+  align-items: center;
+}
+
+.slick-slide img {
+  border: var(--border-size) solid var(--border-color);
+}
+.slick-slider-carousel .slick-dots li button:before {
+  font-size: var(--dots-size);
+  color: var(--dots-color);
+}
