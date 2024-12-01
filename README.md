@@ -1,5 +1,6 @@
 
-<h1>Hướng dẫn cài đặt file:</h1>
+<h1>Plugin ExtendedDescription thêm tính năng </h1>
+<h2>Hướng dẫn cài đặt file:</h2>
 <p>plugins\ExtendedDescription\include\events.inc.php</p>
 <p>plugins\ExtendedDescription\include\functions.inc.php</p>
 <h3>Tạo file slick_slider.tpl :</h3>
