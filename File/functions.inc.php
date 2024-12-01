@@ -523,12 +523,10 @@ SELECT *
       $params['thumbs_size']
     );
   }
-
-  $category_name = $page['category']['name'];
+  // $category_name = $page['category']['name'];
   $template->assign(array(
     'EXTENDED_DESC_PATH' => EXTENDED_DESC_PATH,
     'SLIDER' => $tpl_vars,
-    'categoryName' => $category_name,
   ));
 
   $template->set_filename('slick_slider_template', EXTENDED_DESC_PATH . 'template/slick_slider.tpl');

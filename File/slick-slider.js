@@ -1,9 +1,12 @@
 $(document).ready(function() {
-  $(".slick-slider-carousel").slick({
+  document.querySelectorAll('.slick-slider-container br').forEach((br) => br.remove());
+  $(".slick-slider-container .slick-slider-carousel").on('init', function() {
+    $(this).find('br').remove()
+  }).slick({
   autoplay: true,
   autoplaySpeed: 2000,
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 4,
